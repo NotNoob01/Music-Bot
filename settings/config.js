@@ -73,10 +73,10 @@ module.exports = {
   links: {
     inviteURL:
       process.env.inviteURL ||
-      `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=8&scope=bot%20applications.commands`,
-    DiscordServer: process.env.DiscordServer || `https://discord.gg/FuKfAREn9f`,
-    VoteURL: process.env.VoteURL || `https://discord.gg/FuKfAREn9f`,
-    Website: `https://jugnu.netlify.app/`,
+      `https://discord.com/api/oauth2/authorize?client_id=1190200679076204584&permissions=8&scope=bot+applications.commands`,
+    DiscordServer: process.env.DiscordServer || `https://discord.com/invite/V28VGd6nTC`,
+    VoteURL: process.env.VoteURL || `https://discord.com/invite/V28VGd6nTC`,
+    Website: ``,
   },
   options: {
     embedFooter: true,
@@ -98,6 +98,6 @@ module.exports = {
   ],
   slash: {
     global: true,
-    guildID: process.env.GUILD_ID || "SERVER_ID", // for slash command
+    guildID: process.env.GUILD_ID || "1180406537294991391", // for slash command
   },
 };
