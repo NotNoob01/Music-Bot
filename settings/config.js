@@ -1,10 +1,10 @@
 module.exports = {
-  TOKEN: process.env.TOKEN || "BOT_TOKEN",
-  PREFIX: process.env.PREFIX || "BOT_PREFIX",
+  TOKEN: process.env.TOKEN || "MTE5MDIwMDY3OTA3NjIwNDU4NA.GL-Elr.czrUx57XpEYj0AZrnRPYnwJk2vnFjtqwmYZaEc",
+  PREFIX: process.env.PREFIX || ",",
   embed: {
     color: process.env.color || "#220f80",
     wrongcolor: process.env.wrongcolor || "#8a0808",
-    footertext: "Coded By Kabir Singh | Tech Boy Development",
+    footertext: "Coded By NotNoob",
   },
   emoji: {
     ERROR: "❌",
@@ -23,7 +23,7 @@ module.exports = {
     autoplay: "♾",
   },
   // others
-  mongodb: process.env.MONGO_URL || "MONGO_URL",
+  mongodb: process.env.MONGO_URL || "mongodb+srv://r1x@r1x2.yu1r9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   filters: {
     clear: "dynaudnorm=f=200",
     lightbass: "bass=g=8,dynaudnorm=f=200",
